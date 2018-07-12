@@ -1,0 +1,23 @@
+/*Variables*/
+.my-span {
+  background-color: #00b3ee;
+  color: #ffffff; }
+
+/*Nesting*/
+.my-div {
+  width: 100%; }
+  .my-div h2 {
+    color: #0b97c4; }
+
+/*Extends*/
+.input-text, .input-text-success {
+  border-radius: 2px;
+  border: 2px solid #ddd;
+  color: #555;
+  font-size: 20px;
+  padding: 5px 12px;
+  display: inline-block;
+  outline: 0; }
+
+.input-text-success {
+  border: 4px solid #7be500; }
